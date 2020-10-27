@@ -50,6 +50,8 @@ func test(x int) func(int) int {
 
 //方法
 //这里相当于定义了一个类，定义了类的变量，但是类方法是另外定义的
+//后续知道这里是叫做结构体的一种东西，相当于定义了一些列键值对把，想要获取结构体的值
+//需要类似于实例化的操作，即 var d Dockerapi --> d.host，下面的方法也是如此
 type Dockerapi struct {
 	host int
 	port int
@@ -78,8 +80,8 @@ func main() {
 	fmt.Println(c(1))
 
 	//获取类实例，然后调用类方法
-	var d Dockerapi
-	d.host = 1
-	d.port = 21
+	var d = Dockerapi{1, 21}
+	//d.host = 1
+	//d.port = 21
 	fmt.Println(d.getUrl())
 }

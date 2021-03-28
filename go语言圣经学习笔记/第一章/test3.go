@@ -12,7 +12,7 @@ func pfile(f *os.File) {
 }
 
 func main() {
-	file := "E:\\go_learn\\go语言圣经学习笔记\\第一章\\test2.go"
+	file := "E:\\go_learn\\go语言圣经学习笔记\\第一章\\getPostDataForJson.go"
 	f, err := os.Open(file)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)

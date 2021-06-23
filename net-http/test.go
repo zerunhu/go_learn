@@ -22,7 +22,6 @@ func fblq(n int) int {
 }
 
 func main() {
-	go sninner(100 * time.Millisecond)
-	f := fblq(45)
-	fmt.Println(f)
+	a := "abc"
+
 }

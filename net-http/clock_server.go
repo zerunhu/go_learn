@@ -18,6 +18,7 @@ func handleConn(c net.Conn) {
 		time.Sleep(time.Second)
 	}
 }
+
 func main() {
 	listener, err := net.Listen("tcp", "localhost:1234")
 	if err != nil {
@@ -26,10 +27,10 @@ func main() {
 	for {
 		conn, err := listener.Accept()
 		if err != nil {
-			log.Print(err) // e.g., connection aborted
+			log.Print(1, err) // e.g., connection aborted
 			continue
 		}
-		log.Print(conn.RemoteAddr())
-		handleConn(conn)
+		log.Printf("a client connect: %s", conn.RemoteAddr())
+		go handleConn(conn)
 	}
 }

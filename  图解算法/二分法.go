@@ -7,7 +7,6 @@ func test(arr []int, v int) int {
 	top := len(arr) - 1
 	var mid int
 	for button <= top {
-		fmt.Printf("button: %d,top: %d \n", button, top)
 		mid = (top + button) / 2
 		if arr[mid] < v {
 			button = mid + 1
@@ -21,7 +20,7 @@ func test(arr []int, v int) int {
 }
 
 func main() {
-	l := []int{4, 3, 2, 1}
-	msg := test(l, 4)
+	l := []int{2, 3, 4}
+	msg := test(l, 2)
 	fmt.Println(msg)
 }

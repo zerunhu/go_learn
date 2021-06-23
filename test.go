@@ -1,37 +1,44 @@
 package main
 
 import (
-	"fmt"
-
-	errors "golang.org/x/xerrors"
+	"time"
 )
 
-type Phone interface {
-	call()
+func app() func(string) string {
+	t := "Hi"
+	c := func(b string) string {
+		t = t + " " + b
+		return t
+	}
+	return c
 }
 
-type NokiaPhone struct {
+type Test struct {
+	a int
 }
 
-func (nokiaPhone NokiaPhone) call() {
-	fmt.Println("I am Nokia, I can call you!")
+func (t Test) add() int {
+	return t.a * 2
 }
 
-type IPhone struct {
-	n int
+type Test2 struct {
+	Test
 }
 
-func (iPhone IPhone) call() {
-	fmt.Println("I am iPhone, I can call you!")
+func test111(arr []int) {
+	arr = append(arr[:3], arr[4:]...)
 }
-func test(p Phone, x string) {
-	fmt.Println(p, x)
+func test11(arr []int) {
+	//a := []int{6, 7}
+	arr = append(arr, 1)
 }
+
+type al struct {
+	a int
+	b string
+}
+
+var TokenExpireDuration = time.Hour * 1
 
 func main() {
-	err := errors.New("abc")
-
-	a := err.Error()
-	fmt.Println(err)
-	fmt.Println(a)
 }

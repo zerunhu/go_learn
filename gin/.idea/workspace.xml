@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04114da3-4f95-492d-b637-03c9f60e865c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/动态规划/10.正则表达式匹配.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/动态规划/5.最长回子串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/堆栈/20. 有效的括号.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/1.冒泡排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/2.选择排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/3.插入排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/4.希尔排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/5.归并排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/6.快速排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/7.堆排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/8.计数排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/排序/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/33. 搜索旋转排序数组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/34. 在排序数组中查找元素的第一个和最后一个位置.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/35. 搜索插入位置.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/39. 组合总和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/40.组合综合II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/41. 缺失的第一个正数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/42.接雨水.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/45.跳跃游戏II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/53. 最大子序和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/55. 跳跃游戏.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/56. 合并区间.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/57. 插入区间.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/62.不同路径.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/63.不同路径II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/64.最小路径和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/66.加一.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/75.颜色分类.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/数组/78.子集.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/1.两数相加.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/141. 环形链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/142. 环形链表 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/19.删除链表倒数第N个.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/206.链表反转.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/21.正序链表合并.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/23.k个正序列表合并.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/24.两两交换链表中的节点.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/25.k个一组反转链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/61. 旋转链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/82. 删除排序链表中的重复元素 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/83. 删除排序链表中的重复元素.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/86. 分隔链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/链表/92. 反转链表 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net-http/8.2_ftp_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net-http/8.2_ftp_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net-http/linux命令.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ 图解算法/二分法.go" beforeDir="false" afterPath="$PROJECT_DIR$/../ 图解算法/二分法.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go_gin/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go_gin/test1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go语言圣经学习笔记/第七章 并发/test5_ftpserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go语言圣经学习笔记/第七章 并发/test5_ftpserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go语言圣经学习笔记/第七章 并发/test6_ftpclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go语言圣经学习笔记/第七章 并发/test6_ftpclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-http/clock_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../net-http/clock_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net-http/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../net-http/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="D:/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1shKUzZfYTXDw4qJm7Pk316P9uW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

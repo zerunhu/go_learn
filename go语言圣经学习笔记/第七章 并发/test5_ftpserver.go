@@ -20,7 +20,7 @@ func Connn(c net.Conn) {
 	defer c.Close()
 	input := bufio.NewScanner(c)
 	for input.Scan() {
-		go echo(c, input.Text(), 1*time.Second)
+		echo(c, input.Text(), 1*time.Second)
 	}
 }
 func main() {

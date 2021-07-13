@@ -1,44 +1,32 @@
 package main
 
 import (
-	"time"
+	"fmt"
 )
 
-func app() func(string) string {
-	t := "Hi"
-	c := func(b string) string {
-		t = t + " " + b
-		return t
+type Person interface {
+	Greet()
+}
+
+type person struct {
+	name string
+	age  int
+}
+
+func (p person) Greet() {
+	fmt.Printf("Hi! My name is %s", p.name)
+}
+
+// Here, NewPerson returns an interface, and not the person struct itself
+func NewPerson(name string, age int) Person {
+	return person{
+		name: name,
+		age:  age,
 	}
-	return c
 }
-
-type Test struct {
-	a int
-}
-
-func (t Test) add() int {
-	return t.a * 2
-}
-
-type Test2 struct {
-	Test
-}
-
-func test111(arr []int) {
-	arr = append(arr[:3], arr[4:]...)
-}
-func test11(arr []int) {
-	//a := []int{6, 7}
-	arr = append(arr, 1)
-}
-
-type al struct {
-	a int
-	b string
-}
-
-var TokenExpireDuration = time.Hour * 1
 
 func main() {
+	a := []int{1, 2, 3}
+	fmt.Println(a[2:])
+	fmt.Printf("aa- %t", A(1))
 }

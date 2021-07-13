@@ -19,10 +19,21 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return last
 }
+
+func reverse1(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+	last := reverse1(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return last
+}
+
 func main() {
 	a := &ListNode{Val: 1, Next: &ListNode{Val: 3, Next: &ListNode{Val: 5, Next: &ListNode{Val: 6, Next: nil}}}}
 
-	c := reverseList(a)
+	c := reverse1(a)
 	fmt.Println(c)
 	fmt.Println(c.Next)
 	fmt.Println(c.Next.Next)

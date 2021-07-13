@@ -22,10 +22,10 @@ import "fmt"
 输出：false
 解释：链表中没有环。
 */
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
 
 //方法一通过一个哈希表来存储每一个节点，如果遇到重复节点就是环
 func hasCycle(head *ListNode) bool {

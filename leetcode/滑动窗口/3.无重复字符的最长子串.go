@@ -1,5 +1,16 @@
 package main
 
+/*
+给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+输入: s = "abcabcbb"
+输出: 3
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+输入: s = "bbbbb"
+输出: 1
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+[left,right]窗口在中间，先right右移，直到有重复，然后left左移到前面那个重复的后面
+right继续右移，直到最后一个
+*/
 import (
 	"fmt"
 	"sort"
@@ -66,8 +77,32 @@ func lengthOfLongestSubstring2(s string) int {
 	return nas
 }
 
+func lengthOfLongestSubstring3(s string) int {
+	if len(s) == 0 {
+		return 0
+	}
+	left, right := 0, 0
+	max := 1
+	hashMap := map[byte]int{}
+	for right = 0; right < len(s); right++ {
+		if index, ok := hashMap[s[right]]; ok {
+			for ; left <= index; left++ {
+				delete(hashMap, s[left])
+			}
+			left = index + 1
+		}
+		hashMap[s[right]] = right
+		//fmt.Println(left, right, hashMap)
+		if right-left+1 > max {
+			max = right - left + 1
+		}
+	}
+	return max
+}
+
 func main() {
-	s := ""
-	x := lengthOfLongestSubstring2(s)
+	s := "abcabcbb"
+	x := lengthOfLongestSubstring3(s)
 	fmt.Println(x)
+	//fmt.Println(map[byte]int{})
 }
